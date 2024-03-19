@@ -1,6 +1,8 @@
-# HBV202GAssignment9
+# HBV202GAssignment10
 A project skeleton for implementing the *Composite* pattern and the *Observer* pattern 
 (and some sort of *Template Method* pattern) based on tests using JUnit4.
+
+Note: This is assignment 10, adding documentation to assignment 9
 
 ## Installation
 
