@@ -42,6 +42,10 @@ Maven:
 Maven:
 - `mvn exec:java` runs the main method in the CompositeMain class, executing a preprogrammed mathematical problem.
 
+## Documentation
+
+Maven:
+- `mvn site` will generate navigable html documentation for the project.
 
 ## Notes
 
