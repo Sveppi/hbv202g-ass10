@@ -1,4 +1,4 @@
-# HBV202GAssignment9
+# HBV202GAssignment10
 A project implementing the *Composite* pattern and the *Observer* pattern 
 (and some sort of *Template Method* pattern) based on tests using JUnit4.
 
