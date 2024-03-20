@@ -1,6 +1,6 @@
 # HBV202GAssignment10
-A documentation of Assignment 9, a project implementing the *Composite* pattern and the *Observer* pattern 
-(and some sort of *Template Method* pattern) based on tests using JUnit4.
+A documented version of Assignment 9, a project implementing the *Composite* pattern and the *Observer* pattern 
+(and some sort of *Template Method* pattern) based on tests using JUnit4, to realize plus and multiplication functions.
 
 ## Licence
 [Link to MIT licence](./LICENSE)
@@ -32,9 +32,17 @@ but in the usual separate Maven `src` directories:
 ## Building
 
 Maven:
-
 - `mvn compile` compiles all implementation classes.
 - `mvn test` runs all test cases (i.e. all classes with a name that either starts with `Test` or ends with `Test`, 
   `Tests`, or `TestCase`). As long as you have not finished implementing all packages, it is better to use the IDE to
   run individual test cases or package-level test suites.
 
+## Running
+
+Maven:
+- `mvn exec:java` runs the main method in the CompositeMain class, executing a preprogrammed mathematical problem.
+
+
+## Notes
+
+Documentation for all classes, methods and tests generated with GitHub Copilot.

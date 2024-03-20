@@ -2,12 +2,17 @@ package is.hi.hbv202g.ass9;
 
 import is.hi.hbv202g.ass9.composite.*;
 
+/**
+ * The `CompositeMain` class represents the main entry point of the program. 
+ */
 public class CompositeMain {
 
 	/**
-	 * The main method is the entry point of the program.
+	 * Main method executes a mathemetical expression. It creates three NumberLeaf objects, uses 
+	 * PlusComposite to add two of them together and then uses MultiplyComposite to multiply the sum
+	 * of the two numbers with the third number. The expression and result are finally printed.
 	 *
-	 * @param args The command-line arguments passed to the program.
+	 * @param args The command-line arguments passed to the program, but main method does not use any.
 	 */
 	public static void main(String[] args) {
 		NumberLeaf number1 = new NumberLeaf(1);

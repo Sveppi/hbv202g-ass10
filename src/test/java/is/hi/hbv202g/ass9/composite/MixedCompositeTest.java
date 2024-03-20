@@ -3,8 +3,15 @@ package is.hi.hbv202g.ass9.composite;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
+/**
+ * This class contains unit tests for the MixedComposite class.
+ */
 public class MixedCompositeTest {
 
+	/**
+	 * Test case for the testMixedPlusMultiplyComposites method.
+	 * It tests the calculation of a mixed composite expression.
+	 */
 	@Test
 	public void testMixedPlusMultiplyComposites() {
 		NumberLeaf number1 = new NumberLeaf(1);

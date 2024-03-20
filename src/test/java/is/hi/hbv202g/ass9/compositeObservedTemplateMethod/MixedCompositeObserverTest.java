@@ -3,8 +3,15 @@ package is.hi.hbv202g.ass9.compositeObservedTemplateMethod;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
+/**
+ * This class contains unit tests for the MixedCompositeObserver class.
+ */
 public class MixedCompositeObserverTest {
 
+	/**
+	 * Test case for the MixedCompositeObserver class.
+	 * It tests the behavior of the observer pattern with a mixed composite expression.
+	 */
 	@Test
 	public void testMixedPlusMultiplyCompositesObserver() {
 

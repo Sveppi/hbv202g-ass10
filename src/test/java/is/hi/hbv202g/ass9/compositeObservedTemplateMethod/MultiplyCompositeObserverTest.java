@@ -4,15 +4,25 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * This class contains unit tests for the MultiplyCompositeObserver class.
+ */
 public class MultiplyCompositeObserverTest {
 
 	private MultiplyComposite multiplyComposite;
 
+	/**
+	 * Creates a new instance of MultiplyComposite before each test.
+	 */
 	@Before
 	public void createMultiplyComposite() {
 		multiplyComposite = new MultiplyComposite();
 	}
 
+	/**
+	 * Tests the behavior of a MultiplyCompositeObserver with only one element.
+	 * It verifies that the last observed result is correctly stored.
+	 */
 	@Test
 	public void testOneElementMultiplyCompositeObserver() {
 

@@ -4,20 +4,34 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * This class contains unit tests for the PlusComposite class.
+ */
 public class PlusCompositeTest {
 
     private PlusComposite plusComposite;
 
+    /**
+     * Creates a new PlusComposite object before each test.
+     */
     @Before
     public void createPlusComposite() {
         plusComposite = new PlusComposite();
     }
 
+    /**
+     * Tests an empty PlusComposite object.
+     * The expected result is 0.
+     */
     @Test
     public void testEmptyPlusComposite() {
         assertEquals("An empty plus composite should return 0", 0, plusComposite.getResult());
     }
 
+    /**
+     * Tests a PlusComposite object with only one element.
+     * The expected result is the value of the leaf element.
+     */
     @Test
     public void testOneElementPlusComposite() {
         NumberLeaf number2 = new NumberLeaf(2);
@@ -28,6 +42,10 @@ public class PlusCompositeTest {
                 2, plusComposite.getResult());
     }
 
+    /**
+     * Tests a PlusComposite object with two elements.
+     * The expected result is the sum of the values of the leaf elements.
+     */
     @Test
     public void testTwoElementPlusComposite() {
         NumberLeaf number1 = new NumberLeaf(1);
@@ -40,6 +58,10 @@ public class PlusCompositeTest {
                 3, plusComposite.getResult());
     }
 
+    /**
+     * Tests a nested PlusComposite object.
+     * The expected result is the sum of the values of the nested PlusComposite objects.
+     */
     @Test
     public void testNestedPlusComposite() {
         NumberLeaf number1 = new NumberLeaf(1);

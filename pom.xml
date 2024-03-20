@@ -8,8 +8,8 @@
   <artifactId>ass9</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>Assignment 9</name>
-  <description>Project implementation for Assignment 9 in course HBV202G Software Design and Construction</description>
+  <name>Assignment 10</name>
+  <description>Documented version of my implementation of Assignment 9 in course HBV202G Software Design and Construction</description>
   <licenses>
     <license>
       <name>MIT</name>
@@ -99,7 +99,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.2.0</version>
         <configuration>
-          <mainClass>is.hi.hbv202g.ass9.composite.Main</mainClass>
+          <mainClass>is.hi.hbv202g.ass9.CompositeMain</mainClass>
         </configuration>
       </plugin>
     </plugins>
