@@ -4,6 +4,11 @@ import is.hi.hbv202g.ass9.composite.*;
 
 public class CompositeMain {
 
+	/**
+	 * The main method is the entry point of the program.
+	 *
+	 * @param args The command-line arguments passed to the program.
+	 */
 	public static void main(String[] args) {
 		NumberLeaf number1 = new NumberLeaf(1);
 		NumberLeaf number2 = new NumberLeaf(2);
@@ -17,5 +22,7 @@ public class CompositeMain {
 		multiplyComposite.add(number4);
 		multiplyComposite.add(plusComposite);
 
-		System.out.println("The result of ("+number1.getResult()+"+"+number2.getResult()+")*"+number4.getResult()+" is: "+ multiplyComposite.getResult());	}
+		System.out.println("The result of (" + number1.getResult() + "+" + number2.getResult() + ")*" +
+				number4.getResult() + " is: " + multiplyComposite.getResult());
+	}
 }
