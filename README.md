@@ -1,6 +1,6 @@
-# HBV202GAssignment10
-A documented version of Assignment 9, a project implementing the *Composite* pattern and the *Observer* pattern 
-(and some sort of *Template Method* pattern) based on tests using JUnit4, to realize plus and multiplication functions.
+# HBV202G Assignment 10
+A documented version of Assignment 9, a project implementing the *Composite* pattern, the *Observer* pattern 
+and the *Template Method* pattern, based on tests using JUnit4, to realize plus and multiplication functions.
 
 ## Licence
 [Link to MIT licence](./LICENSE)
